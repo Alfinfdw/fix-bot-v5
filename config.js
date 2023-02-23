@@ -49,31 +49,31 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sig = 'https://instagram.com/_ctzhid' // ig
-global.sgh = 'https://github.com/WH-MODS-BOT/' // github
-global.sgc = 'https://chat.whatsapp.com/FQkbyTEfvES3D363uxMEFOI' // group whatsapp
+global.sig = 'https://instagram.com/q.c.ditya' // ig
+global.sgh = 'https://github.com/Dityarunz' // github
+global.sgc = 'https://chat.whatsapp.com/Ej8JuTdjGnA4XxLGbwlpMP' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
-global.snh = 'https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow' // my youtube channel
+global.snh = 'https://youtube.com/@dityaastawa6595' // my youtube channel
 global.sfb = 'https://www.facebook.com/' // facebook
 global.syt = 'https://www.youtube.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '08XXXXXXXXXX' //dana
-global.povo = '08XXXXXXXXXX' //ovo
-global.pgopay = '08XXXXXXXXXX' //gopay
-global.plinkaja = '08XXXXXXXXXX' //link aja
-global.ppulsa = '08XXXXXXXXXX' //telkomsel
-global.ppulsa2 = '08XXXXXXXXXX' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/mrw4h1d'
+global.pdana = '085792429140' //dana
+global.povo = '085792429140' //ovo
+global.pgopay = '085792429140' //gopay
+global.plinkaja = '-' //link aja
+global.ppulsa = '085792429140' //telkomsel
+global.ppulsa2 = '085792429140' // kalau ada kartu lain isi aja
+global.psaweria = 'gakada'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62XXXXXXXXXXX'
-global.nomorown = '6282127487538'
-global.namebot = 'WH-MODS-BOT-V1'
-global.nameown = 'WH MODS DEV'
+global.nomorbot = '6285792429140'
+global.nomorown = '6285237596750'
+global.namebot = 'DityaBotz'
+global.nameown = 'DITYAASTAWA'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = 'WH-MODS-BOT' // nama github lu
+global.namagithub = 'Dityarunz' // nama github lu
 global.linkgithub = sgh // EDIT LINK GITHUB DI global.sgh
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
@@ -86,11 +86,11 @@ global.openaikey = "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"
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282127487538', 'WH MODS DEV', true],
-  ['-', 'ISI KALAU ADA', true],
-  ['-', 'ISI KALAU ADA', true],
-  ['-', 'ISI KALAU ADA', true],
-  ['-', 'ISI KALAU ADA', true]
+  ['6285237596750', 'DITYAASTAWA', true],
+  ['-', '6285237596750', true],
+  ['-', '6285237596750', true],
+  ['-', '6285237596750', true],
+  ['-', '6285237596750', true]
     //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
@@ -158,14 +158,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 WH-MODS-BOT-V1 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘WH-MODS-BOT-V1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = "⫹⫺ WH-MODS-BOT-V1"
+global.wm = '                「 DITYABOTZ 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘DITYABOTZ ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = "⫹⫺ DITYAASTAWA"
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ TIME: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By WH-MODS-DEV`
+global.titlebot = `⫹⫺ WhatsApp Bot | By DITYAASTAWA`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = "WH MODS DEV 乂 WH MODS BOT"
+global.author = "DITYAASTAWA 乂 DITYABOTZ"
 
 /*Fake*/
 global.fsizedoc = SizeDoc()
@@ -239,8 +239,8 @@ global.htjava = pickRandom(["⛶", "❏", "⫹⫺", "☰", "⎔", "✦", "⭔", 
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'WH-MODS-BOT-V1'
-global.stickauth = `By ©WH-MODS-DEV`
+global.stickpack = 'DITYABOTZ'
+global.stickauth = `By ©DITYAASTAWA`
 
 global.multiplier = 69 // The higher, The harder levelup
 
