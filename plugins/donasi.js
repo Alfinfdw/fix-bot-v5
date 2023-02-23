@@ -1,37 +1,41 @@
-import fetch from 'node-fetch'
-let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
-//let handler = async(m, { conn, text, usedPrefix, command }) => {
-//let pp = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image')
+import fs from 'fs'
+import fetch from 'node-fetch'  
+let handler = async (m, { conn, usedPrefix: _p, __dirname, usedPrefix, text, command }) => {
+let tag = `@${m.sender.replace(/@.+/, '')}`
+let mentionedJid = [m.sender]
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+	let zykomd = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
+let Poto = fs.readFileSync('./media/menu.jpg')
+let tek = `▷ ᴅᴏɴᴀsɪ ʙɪsᴀ ᴍᴇʟᴀʟᴜɪ ◁
+    「 Donasi • Pulsa 」
+▪ *Indosat:* [085792429140]
+▪ *Xl:* [081779996909]
 
-let str = `${global.wm}
+    「 Donasi • Non Pulsa 」
+▪ *Dana:* [085792429140]
+▫ *Gopay:* [085792429140]
+▪ *Ovo:* [085792429140]
 
-┌─「 Donasi • Pulsa 」
-│ • *Telkomsel:* [${global.ppulsa}]
-❏────
+Kalau Mau Pake Qr Bisa ke contact Owner kak☺️
+wa.me/6285237596750
 
-┌─「 Donasi • Non Pulsa 」
-│ • *Dana:* [${global.pdana}]
-│ • *Gopay:* [${global.pgopay}]
-│ • *Ovo:* [${global.povo}]
-│ • *Link Aja:* [${global.plinkaja}]
-❏────`
-let wibu = `https://i.ibb.co/P5BBzbf/286637238-392674839545088-948545114162206238-n.jpg` 
-let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
-    mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
-    body: wm,
-    thumbnail: thumb,
+*sᴇᴍᴏɢᴀ ᴀɴᴅᴀ ᴅɪ ʙᴇʀɪᴋᴀɴ ᴋᴇᴍᴜᴅᴀʜᴀɴ ʀᴇᴢᴇᴋɪ ᴅᴀɴ ᴅɪ ʟɪᴘᴀᴛ ɢᴀɴᴅᴀᴋᴀɴ ʀᴇᴢᴇᴋɪ ᴀɴᴅᴀ*`
+
+let cap = `Donasi Nya Kak ${tag} ☺️`
+conn.send3ButtonImg(m.chat, Poto, cap, tek, 'Owner', '.owner', 'Sewa Bot', '.sewa', `\nOwner Bot Ganteng Banget`, '.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://www.instagram.com/q.c.ditya',
+    mediaType: 2, 
+    description: sgc,
+    title: 'ᴅ ᴏ ɴ ᴀ ᴛ ᴇ',
+    body: bottime,
+    thumbnail: await(await fetch(zykomd)).buffer(),
     sourceUrl: sig
-  }
-  } }) 
-          }
+}}
+  })
+}   
 handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = /^dona(te|si)$/i
+handler.command = /^(donasi)$/i
+handler.register = false
 
 export default handler
-
-// WH MODS DEV
