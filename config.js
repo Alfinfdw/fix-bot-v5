@@ -58,19 +58,19 @@ global.sfb = 'https://www.facebook.com/' // facebook
 global.syt = 'https://www.youtube.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '085792429140' //dana
-global.povo = '085792429140' //ovo
-global.pgopay = '085792429140' //gopay
+global.pdana = '085608468994' //dana
+global.povo = '085608468994' //ovo
+global.pgopay = '085608468994' //gopay
 global.plinkaja = '-' //link aja
-global.ppulsa = '085792429140' //telkomsel
-global.ppulsa2 = '085792429140' // kalau ada kartu lain isi aja
+global.ppulsa = '085608468994' //telkomsel
+global.ppulsa2 = '085608468994' // kalau ada kartu lain isi aja
 global.psaweria = 'gakada'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285792429140'
-global.nomorown = '6285237596750'
-global.namebot = 'DityaBotz'
-global.nameown = 'DITYAASTAWA'
+global.nomorbot = '6285608468994'
+global.nomorown = '447971533162'
+global.namebot = 'BotzMgantuk'
+global.nameown = 'Wong uleke'
 
 /*============== Github Thanks To ==============*/
 global.namagithub = 'Dityarunz' // nama github lu
@@ -86,11 +86,11 @@ global.openaikey = "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"
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285237596750', 'DITYAASTAWA', true],
-  ['-', '6285237596750', true],
-  ['-', '6285237596750', true],
-  ['-', '6285237596750', true],
-  ['-', '6285237596750', true]
+  ['447971533162', 'DITYAASTAWA', true],
+  ['-', '447971533162', true],
+  ['-', '447971533162', true],
+  ['-', '447971533162', true],
+  ['-', '447971533162', true]
     //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
